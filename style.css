@@ -1,0 +1,54 @@
+.body{box-sizing: border-box;}
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding:5px;
+    height:auto;   
+    font-size: 2vw;
+    }
+.instructions{
+    font-family: 'Courier New', Courier, monospace;
+        width: 50vw;
+    }
+
+h1{
+    font-size:25px;
+}
+
+.box{
+    height: 10vh;
+    font-size: 2vw;
+    display: flex;
+    border-top:solid;
+    border-left: solid;
+    border-right: solid;
+    width: 20vw;
+    justify-content: center;
+    align-items:center;
+    padding:3px;
+}
+
+ 
+#dice{border:solid;
+    height:20vh;
+}
+
+#diceF{display:none;
+    height: 18vh;}
+
+#clik{
+    margin-top:5vh;
+    width:20vw;
+    height:10vh;
+    font-size: 25px;   
+    justify-content: center;
+    align-items:center;
+}    
